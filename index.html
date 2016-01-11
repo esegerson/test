@@ -6,7 +6,9 @@
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script>
       $(function() {
-        $("H1").hover(function($(this).css("top", Math.random() * 400 + "px").css("left", Math.random() * 400 + "px");
+        $("H1").hover(function() {
+			$(this).css("top", Math.random() * 400 + "px").css("left", Math.random() * 400 + "px");
+		});
       });
     </script>
   </head>
